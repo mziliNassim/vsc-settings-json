@@ -1,0 +1,194 @@
+{
+  // open json editor for settings
+  "workbench.settings.editor": "json",
+
+  // Theme
+  "workbench.colorTheme": "Dracula",
+
+  // Auto save
+  "files.autoSave": "afterDelay",
+
+  // Font size
+  "editor.fontSize": 20,
+  "terminal.integrated.fontSize": 14,
+
+  // Change font
+  "editor.fontFamily": "Cascadia Code",
+  "editor.codeLensFontFamily": "Cascadia Code",
+  "editor.inlayHints.fontFamily": "Cascadia Code",
+  "scm.inputFontFamily": "Cascadia Code",
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "chat.editor.fontFamily": "Cascadia Code",
+  "debug.console.fontFamily": "HCascadia Code",
+  "notebook.output.fontFamily": "Cascadia Code",
+  "markdown.preview.fontFamily": "Cascadia Code",
+
+  // font style " => != === <!-- --> "
+  "editor.fontLigatures": true,
+
+  // Format on save
+  "editor.formatOnSave": true,
+
+  // ui -- Misc
+  /* window */
+  "window.commandCenter": false,
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0.75,
+  /* editor */
+  "editor.guides.indentation": true,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "none",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.lineHeight": 1.5,
+  "editor.codeActionsOnSave": {},
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.fontWeight": "normal",
+  /* workbench */
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  /* breadcrumbs */
+  "breadcrumbs.enabled": false,
+  "breadcrumbs.filePath": "off",
+  /* explorer */
+  "explorer.compactFolders": false,
+  /* git */
+  "git.decorations.enabled": false,
+  /* scm */
+  "scm.diffDecorations": "none",
+  /* files */
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  /* extensions */
+  "extensions.ignoreRecommendations": true,
+
+  // Toggle excluded files
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/.husky": true,
+    "**/drizzle": true,
+    "**/dist": true,
+    "**/.todo.md": true,
+    "**/.vscode": true,
+    "**/.eslintrc.cjs": true,
+    "**/.editorconfig": true,
+    "**/.gitignore": true,
+    "**/.lintstagedrc.mjs": true,
+    "**/.markdownlint.json": true,
+    "**/.markdownlintignore": true,
+    "**/.prettierignore": true,
+    "**/bun.lockb": true,
+    "**/cspell.json": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/next-env.d.ts": true,
+    "**/postcss.config.cjs": true,
+    "**/prettier.config.js": true,
+    "**/README.md": true,
+    "**/next.config.js": true,
+    "**/tailwind.config.ts": true,
+    "**/drizzle.config.ts": true,
+    "**/migrate.ts": true,
+    "**/.env.example": true
+  },
+
+  // Termenall
+  "code-runner.runInTerminal": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+  // icons
+  "workbench.iconTheme": "material-icon-theme",
+
+  // settings Sync
+  "settingsSync.ignoredExtensions": [],
+
+  // formatting code
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Auto close tag
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist"
+  ],
+
+  // Tabnine
+  "tabnine.experimentalAutoImports": true,
+
+  // Apc
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": false,
+    "size": 35
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 12,
+      "y": 10
+    }
+  },
+  "apc.font.family": "Cascadia Code",
+  "apc.monospace.font.family": "Hack Nerd Font",
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 35,
+    "fontSize": 13
+  },
+  "apc.stylesheet": {
+    ".sidebar > .composite": "height: 12px !important",
+    ".title-label": "display: none !important",
+    ".title-actions": "display: none !important",
+    ".titlebar-center": "display: none !important",
+    ".inline-tabs-placeholder": "display: none !important"
+    // ".split-view-view .visible": "background-color: #282a36 !important"
+  },
+  "animations.Install-Method": "Apc Customize UI++",
+  "apc.imports": []
+
+  // ========== End Settings ==========
+}
