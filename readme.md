@@ -1,3 +1,4 @@
+```json
 {
   // open json editor for settings
   "workbench.settings.editor": "json",
@@ -285,3 +286,4 @@
 
   // ========== End Settings ==========
 }
+```
